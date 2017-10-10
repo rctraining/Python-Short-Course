@@ -8,7 +8,7 @@ def ageis(name,age):
     return msg
 
 #By passing our function name to the help function, we can see the docstring (if any)
-help(ageis)
+#help(ageis)
 
 m = ageis('Erin',16)
 print(m)
