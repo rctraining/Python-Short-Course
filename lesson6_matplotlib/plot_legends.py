@@ -23,8 +23,10 @@ y2 = x*x
 y3 = x*x*x
 ###############################################
 
-# To create a legend, we first use the label keyword when creating our plots
+# To create a legend, we use the label 
+# keyword when creating each of our plots
 # If we wish, we can use latex by setting label=r'$latex formula$'  (the r is outside the quotes)
+
 plt.figure(1)
 plt.plot(x,y1,label = 'x')
 plt.plot(x,y2,'go',label = r'$x^2$'+' (with latex)') # green circles (first letter g = green; second letter o = filled circle)
