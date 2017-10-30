@@ -1,3 +1,9 @@
+########################################################
+# Example:
+#       Creating a plot with 2-D data
+#       Displayed in color
+#       Displayed with contours
+
 import numpy as np
 import matplotlib.pyplot as plt
 

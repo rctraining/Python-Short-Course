@@ -1,4 +1,9 @@
-################
+##################################################################
+# Example:  Creating a plot with:
+#  -- multiple subplots
+#  -- text annotation
+#  -- data created using an FFT
+
 import matplotlib.pyplot as plt
 import numpy as np
 
@@ -24,7 +29,10 @@ def compute_power(the_signal):
     the_power = np.roll(the_power, npts//2)
     return the_power
 
-##########################
+###################################################
+#  Generate some data
+#  We construct three sample signals (in time) and 
+#  their associated power spectrum (in frequency space)
 pi = np.pi
 npts = 2048
 mydt='float64'
@@ -61,6 +69,7 @@ plt.subplot(3, 2, 1)
 plt.plot(time,sig1)
 plt.xlabel('time (s)')
 plt.ylabel('amplitude (dB)')
+
 # We can annotate our plot using "text"
 # To do so, we specify (x-data coordinate, y-data coordinate, and string value) 
 plt.text(0,0.5,'Gaussian Pulse')  # We can annotate our plot using text(x-data coord, y-data coordinate, 

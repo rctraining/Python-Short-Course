@@ -1,5 +1,5 @@
 ##################################################################
-# Example:  Creating two figures in the same file
+# Example:  Creating two figures in the same window
 # This works largely like before, just create plt.figure(2) etc. before calling plt.show().
 # Useful for interactive work; not so useful for paper-writing (use subplots for that).
 
