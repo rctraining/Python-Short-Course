@@ -22,7 +22,8 @@ dset1[0] = 1000
 dset2[0,:] = np.array([2.1,3.0],dtype='float64')
 dset2[1,:] = np.array([55.0,-73.0001],dtype='float64')
 
-
+dset1.attrs['month']=7
+dset1.attrs['year']= 2017
 
 f.close()
 

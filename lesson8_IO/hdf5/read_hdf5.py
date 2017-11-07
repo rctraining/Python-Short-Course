@@ -18,7 +18,7 @@ print('////////////////////////////////////')
 print('Reals shape: ', reals.shape)
 print('Reals dtype: ', reals.dtype)
 print(reals[:,:])
-
+print(integers.attrs['year'])
 f.close()
 
 
